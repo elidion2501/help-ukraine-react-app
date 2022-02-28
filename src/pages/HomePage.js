@@ -26,7 +26,21 @@ const HomePage = () => {
     >
       <h1 className="container">
         На цій сторінці ви знайдете людей котрі допомагають з перевезенням людей
-        у безпечне місце.
+        у безпечне місце. <br /> <br />
+        <a className="btn  btn-warning" href="https://pomocpreukrajinu.sk/">
+          <h2>Знайти або запропонувати житло в словатчинні.</h2>
+        </a>
+        <br />
+        <br />
+        <div className="" >
+          <img
+            // style={{ maxWidth: "600px", maxHeight: "250px" }}
+            className="img-fluid"
+            style={{maxHeight:'250px'}}
+            src="https://slovakstudy.com/wp-content/uploads/kartinka-3.jpg.webp"
+            alt=""
+          />
+        </div>
       </h1>
     </div>
   );

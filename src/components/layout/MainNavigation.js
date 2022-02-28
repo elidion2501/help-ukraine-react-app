@@ -12,7 +12,7 @@ const MainNavigation = (props) => {
           <div className="row col-12">
             <ul
               className="navbar-nav text-center col-xxl-8 col-xl-6"
-              style={{ justifyContent: "center !important", paddingRight:'0' }}
+              style={{ justifyContent: "center !important", paddingRight: "0" }}
             >
               <li className="nav-item">
                 <Link className="nav-link" to="/home">
@@ -23,6 +23,23 @@ const MainNavigation = (props) => {
                 <Link className="nav-link" to="/cars/need">
                   Перевезення
                 </Link>
+              </li>
+              <li className="nav-item text-center">
+                <img
+                  className="img-fluid nav-link"
+                  style={{ width: "70px", height: "50px", margin: "auto" }}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/2560px-Flag_of_Ukraine.svg.png"
+                  alt=""
+                />
+              </li>
+
+              <li className="nav-item">
+                <img
+                  className="img-fluid nav-link"
+                  style={{ width: "70px", height: "50px", margin: "auto" }}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flag_of_Slovakia_%28bordered%29.svg/640px-Flag_of_Slovakia_%28bordered%29.svg.png"
+                  alt=""
+                />
               </li>
             </ul>
             {/* {!isLogin && (
