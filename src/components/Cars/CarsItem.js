@@ -11,18 +11,18 @@ const CarsItem = (props) => {
         </p>
       </p>
       <p className="mb-1 ">
-        Від <small className="fw-bold fs-6"> {props.car?.city_from}</small>
-        {props.car?.city_to && " В напрямку міста / V smere do mesta*: "}
+        Від / Z <small className="fw-bold fs-6"> {props.car?.city_from}</small>
+        {props.car?.city_to && " В напрямку міста / V smere do mesta: "}
         {props.car?.city_to && (
           <small className="fw-bold fs-6"> {props.car?.city_to}</small>
         )}
       </p>
       <p className="fw-bold">
-        Телефон / Telefón*:
+        Телефон / Telefón:
         <small className="fw-normal"> {props.car?.phone}</small>
       </p>
       <p className="fw-bold">
-        Ім'я контактної людини / Meno kontaktnej osoby*:
+        Ім'я контактної людини / Meno kontaktnej osoby:
         <small className="fw-normal"> {props.car?.name} </small>
       </p>
       {(props.type === 2 || props.type === 3) && (
@@ -33,7 +33,7 @@ const CarsItem = (props) => {
 
       {(props.type === 2 || props.type === 3) && (
         <p className="fw-bold">
-          Кількість місць / Počet sedadiel*:
+          Кількість місць / Počet sedadiel:
           <small className="fw-normal"> {props.car?.count}</small>
         </p>
       )}

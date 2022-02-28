@@ -11,7 +11,7 @@ const Cars = () => {
       <div className="row text-center justify-content-center">
         <div
           className={
-            "col-3 pt-2 pb-2 border border-dark" +
+            "col-sm-12 col-md-3 pt-2 pb-2 border border-dark" +
             (location.pathname === "/cars/need"
               ? "alert alert-warning"
               : "border border-dark")
@@ -23,7 +23,7 @@ const Cars = () => {
         </div>
         <div
           className={
-            "col-3 pt-2 pb-2 border border-dark" +
+            "col-sm-12 col-md-3 pt-2 pb-2 border border-dark" +
             (location.pathname === "/cars/have"
               ? "alert alert-info"
               : "border border-dark")
@@ -36,7 +36,7 @@ const Cars = () => {
 
         <div
           className={
-            "col-3 pt-2 pb-2 border border-dark" +
+            "col-sm-12 col-md-3 pt-2 pb-2 border border-dark" +
             (location.pathname === "/cars/border"
               ? "alert alert-success"
               : "border border-dark")

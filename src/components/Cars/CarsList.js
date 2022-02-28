@@ -208,7 +208,6 @@ const CarsList = (props) => {
         setCitiesFrom(data.data.data);
       })
       .catch((err) => {
-        alert(err.message);
       });
   }, [cityFromInput]);
 
@@ -243,7 +242,6 @@ const CarsList = (props) => {
         setCitiesTo(data.data.data);
       })
       .catch((err) => {
-        alert(err.message);
       });
   }, [cityToInput]);
   return (
